@@ -1,3 +1,37 @@
-h1{
-  color: brown;
+*{
+  margin: 0 ;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+/* common style */
+.common-btn{
+  background-color:#1D4ED8 ;
+  padding: 15px 45px;
+  border-radius: 10px;
+  font-weight: 550;
+  font-size: 17px;
+  color: white;
+  border: none;
+}
+header{
+  background-color: rgb(249, 249, 249);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 0;
+  
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+  color: #575757;
+}
+ul li a{
+  text-decoration: none;
+  padding-top: 100px;
 }
