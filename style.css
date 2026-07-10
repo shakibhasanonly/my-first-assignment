@@ -6,22 +6,26 @@
 /* common style */
 .common-btn{
   background-color:#1D4ED8 ;
-  padding: 15px 45px;
+  padding: 13px 45px;
   border-radius: 10px;
   font-weight: 550;
   font-size: 17px;
   color: white;
   border: none;
+  
 }
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+/* navbar start */
 header{
   background-color: rgb(249, 249, 249);
 }
 nav{
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  padding: 15px 0;
+  padding: 20px 0;
   
 }
 ul{
@@ -35,3 +39,58 @@ ul li a{
   text-decoration: none;
   padding-top: 100px;
 }
+/* navbar end */
+/* header start */
+.banner{
+  background-image:  linear-gradient(to right, rgba(0,0,0,.85), rgba(0,0,0,0)), url(./assets/banner.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size:cover ;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+.header-content{
+  
+  color: white;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 138px;
+  
+
+}
+.banner h1{
+  font-size: 70px;
+  font-weight:700;
+  margin-top:130px;
+  margin-bottom:20px;
+}
+
+.banner h1 span{
+    font-style:italic;
+    font-weight:600;
+}
+.banner p{
+    font-size:22px;
+   margin-bottom:50px;
+    color:white;
+    overflow: hidden;
+    
+}
+.btn-lust {
+  background-color:#1D4ED8 ;
+  margin-top: 400px;
+  padding:18px 48px;
+  border-radius: 10px;
+  font-weight: 550;
+  font-size: 22px;
+  color: white;
+  border: none;
+  
+  
+}
+
+  
+/* header end */
