@@ -37,6 +37,7 @@ nav{
 .navbar-ul {
   display: flex;
   list-style: none;
+  text-decoration: none;
   gap: 10px;
   align-items: center;
   color: #575757;
@@ -45,6 +46,7 @@ ul li a{
   text-decoration: none;
   padding-top: 100px;
 }
+
 /* navbar end */
 /* header start */
 .banner{
@@ -117,12 +119,15 @@ h3{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 25px;
+
 }
 .card-img{
   background-color:#fbfbfb;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba (0, 0, 0, 0, 1) ;
+  border:1px solid #ddd;
+
   
 }
 .card img{

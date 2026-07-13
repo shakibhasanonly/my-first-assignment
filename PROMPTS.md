@@ -1,0 +1,1 @@
+I am a beginner level coder, you can say student, I am building a website based on a DevConf 2026 theme with html and css where there is a blank section, please make me the most perfect section out of Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.
