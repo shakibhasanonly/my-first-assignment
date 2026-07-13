@@ -42,7 +42,7 @@ nav{
   align-items: center;
   color: #575757;
 } 
-ul li a{
+ul li a {
   text-decoration: none;
   padding-top: 100px;
 }
@@ -82,14 +82,14 @@ ul li a{
 }
 .banner p{
     font-size:22px;
-   margin-bottom:50px;
+    margin-bottom:50px;
     color:white;
     overflow: hidden;
     
 }
 .btn-lust {
   background-color:#1D4ED8 ;
-  margin-top: 390px;
+  margin-top: 320px;
   padding:18px 48px;
   border-radius: 10px;
   font-weight: 550;
@@ -130,11 +130,17 @@ gap: 25px;
 
   
 }
-.card img{
+.card-img img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    display:block;
+}
+/* .card img{
   width: 100%;
   height: 280px;
   object-fit: cover;
-}
+} */
 .speaker-info{
 padding: 20px;
 }
