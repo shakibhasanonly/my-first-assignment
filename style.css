@@ -13,6 +13,7 @@
   font-size: 17px;
   color: white;
   border: none;
+  cursor:pointer;
   
 }
 .common-btn:hover{
@@ -38,7 +39,7 @@ nav{
 .navbar-ul {
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 30px;
   align-items: center;
   
 } 
@@ -46,6 +47,7 @@ nav{
   text-decoration: none;
   color: #575757;
   transition: color 0.3s ease;
+  
   }
   .navbar-ul li a:hover {
   color: #1D4ED8;
@@ -86,7 +88,7 @@ nav{
     font-size:22px;
     margin-bottom:50px;
     color:white;
-    overflow: hidden;
+    
     
 }
 .btn-lust {
@@ -98,6 +100,8 @@ nav{
   font-size: 22px;
   color: white;
   border: none;
+  cursor:pointer;
+  transition:.3s;
   }
   .btn-lust:hover{
     border: 1px solid white;
